@@ -1,0 +1,89 @@
+.text-footer{
+	font-size: 12px;
+  font-weight: bold;
+  color: black;
+  text-shadow: 1px 1px #ffffff5c;
+}
+.login-panel {
+	border-radius: 15px;
+	/* opacity: 0.8; */
+  background: rgba(255, 255, 255, 0.459);
+	
+}
+
+.text-gray-900 {
+      font-style: italic;
+      text-shadow: 1px 1px #ffffff5c;
+      position: relative;
+      animation-name: mymove;
+      animation-duration: 1s;
+      animation-iteration-count: 10;
+}
+
+@keyframes mymove {
+  from {opacity: 0.9;}
+  to {opacity: 0.0;}
+}
+
+.panel-header{
+	padding: 10px 15px;
+	background-color: #9e9e9e59;
+    border-bottom: 1px solid #b9b9b900;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+.panel-tittle{
+	padding: 10px 15px;
+	background-color: #ffffff;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+  margin: -1px;
+  box-shadow: 2px 2px 5px;
+
+}
+
+.panel-footer{
+	padding: 10px 15px;
+    background-color: #9e9e9e59;
+    border-top: 1px solid #b9b9b94d;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+.form-control .user{
+  box-shadow: 12px 5px 19px rgb(12 12 12 / 65%);
+}
+.shadow-sm{
+  box-shadow: 3px 3px 4px 1px rgb(12 12 12 / 65%);
+
+}
+
+.form-control-user{
+  position: relative;
+  padding: 11px 2px 2px;
+  float: left;
+  top: -35px;
+  right: 0;
+  z-index: 2;
+  display: block;
+  width: 34px;
+  height: 34px;
+  line-height: 34px;
+  text-align: center;
+  pointer-events: none;
+}
+.form-control-pass{
+  position: relative;
+  padding: 11px 2px 2px;
+  float: left;
+  top: -35px;
+  right: 0;
+  z-index: 2;
+  display: block;
+  width: 34px;
+  height: 34px;
+  line-height: 34px;
+  text-align: center;
+  pointer-events: none;
+}
+
